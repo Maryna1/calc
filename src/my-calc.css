@@ -1,0 +1,45 @@
+body
+{   background-color: dimgrey;
+    text-align: center;
+    color: darkblue;
+}
+div{
+    border: 1px solid black;
+    background: url("look.com.ua_35320.jpg");
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    padding: 15px;
+}
+
+button{
+    border: 1px outset black;;
+    border-radius: 7px;
+    color: white;
+    font-size: 10pt;
+    margin-left: 10px;
+}
+.orange
+{
+    width:40px;
+    height:30px;
+    background-image: repeating-linear-gradient( darkorange,darkorange, darkred );
+}
+.blue
+{
+    width:40px;
+    height:30px;
+    background-image: repeating-linear-gradient( steelblue, royalblue, darkblue );
+}
+.grey
+{
+    width:40px;
+    height:30px;
+    background-image: repeating-linear-gradient( darkgrey,  dimgrey, darkslategrey);
+}
+.black
+{
+    width:40px;
+    height:30px;
+    background-image: repeating-linear-gradient(darkslategrey,black);
+}
