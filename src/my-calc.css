@@ -7,39 +7,80 @@ div{
     border: 1px solid black;
     background: url("look.com.ua_35320.jpg");
     width: 200px;
-    height: 300px;
+    height: 225px;
     display: inline-block;
     padding: 15px;
 }
-
+input{
+    padding: 2px;
+}
 button{
+    margin: 2px;
     border: 1px outset black;;
     border-radius: 7px;
     color: white;
-    font-size: 10pt;
-    margin-left: 10px;
+    font-size: 15pt;
 }
 .orange
 {
     width:40px;
     height:30px;
-    background-image: repeating-linear-gradient( darkorange,darkorange, darkred );
+    background-image: repeating-linear-gradient( darkorange,darkorange, orangered );
 }
-.blue
-{
+.blue{
     width:40px;
     height:30px;
     background-image: repeating-linear-gradient( steelblue, royalblue, darkblue );
 }
-.grey
-{
+.grey{
     width:40px;
     height:30px;
     background-image: repeating-linear-gradient( darkgrey,  dimgrey, darkslategrey);
 }
-.black
-{
+
+.black{
     width:40px;
     height:30px;
     background-image: repeating-linear-gradient(darkslategrey,black);
 }
+table{
+    border-spacing: 0px;
+    width: 200px;
+}
+
+td{
+    padding: 0;
+}
+
+.width{
+    width: 86px;
+    height: 30px;
+}
+
+.heigth{
+    width: 40px;
+    height: 60px;
+}
+
+.grey:active{
+    background-image: repeating-linear-gradient( darkslategrey,  dimgrey, darkgrey);
+}
+
+.black:active{
+    background-image: repeating-linear-gradient(black,darkslategrey);
+}
+
+.blue:active{
+    background-image: repeating-linear-gradient(darkblue , royalblue, steelblue );
+}
+
+.orange:active{
+    background-image: repeating-linear-gradient(orangered,darkorange, darkorange  );
+}
+
+
+
+
+
+
+
